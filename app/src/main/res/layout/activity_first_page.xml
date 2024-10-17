@@ -2,34 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="horizontal"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
     android:padding="16dp"
     android:background="@drawable/backgroudfirstpage">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:padding="20dp"
+
+        android:text="@string/insert_names_title"
+        android:fontFamily="@font/cinzel_extrabold"
+        android:textColor="#000000"
+        android:background="@color/white"
+
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeMaxTextSize="32sp"
+        android:autoSizeStepGranularity="2sp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/box_background"
+        android:layout_height="300dp"
+        android:background="@drawable/perchment3"
         android:layout_gravity="center"
         android:orientation="vertical"
-        android:padding="16dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingBottom="8dp"
-            android:text="Inserisci i nomi dei giocatori dal primo all'ultimo"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="45dp">
 
         <EditText
             android:id="@+id/editTextName1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_bold"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:hint="Primo nome" />
 
         <EditText
@@ -37,6 +50,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_bold"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:hint="Secondo nome" />
 
         <EditText
@@ -44,6 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_bold"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:hint="Terzo nome" />
 
         <EditText
@@ -51,6 +70,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_bold"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:hint="Quarto nome" />
 
         <EditText
@@ -58,18 +80,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/cinzel_regular"
+            android:fontFamily="@font/cinzel_bold"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
             android:hint="Quinto nome" />
-
-        <Button
-            android:id="@+id/buttonSubmit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/cinzel_regular"
-            android:text="Mostra Province" />
 
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cinzel_extrabold"
+        android:textColor="#000000"
+        android:background="#C2B280"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:padding="12dp"
+        android:text="Mostra Province" />
 
+</LinearLayout>
