@@ -2,44 +2,74 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/backgroudfirstpage">
 
-    <EditText
-        android:id="@+id/editTextName1"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome 1" />
+        android:background="@drawable/box_background"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <EditText
-        android:id="@+id/editTextName2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nome 2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="8dp"
+            android:text="Inserisci i nomi dei giocatori dal primo all'ultimo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editTextName3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nome 3" />
+        <EditText
+            android:id="@+id/editTextName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Primo nome" />
 
-    <EditText
-        android:id="@+id/editTextName4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nome 4" />
+        <EditText
+            android:id="@+id/editTextName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Secondo nome" />
 
-    <EditText
-        android:id="@+id/editTextName5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nome 5" />
+        <EditText
+            android:id="@+id/editTextName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Terzo nome" />
 
-    <Button
-        android:id="@+id/buttonSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mostra Province" />
+        <EditText
+            android:id="@+id/editTextName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Quarto nome" />
+
+        <EditText
+            android:id="@+id/editTextName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_regular"
+            android:hint="Quinto nome" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/cinzel_regular"
+            android:text="Mostra Province" />
+
+    </LinearLayout>
 
 </LinearLayout>
 
