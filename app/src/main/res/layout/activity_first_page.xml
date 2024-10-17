@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top|center_horizontal"
@@ -11,29 +11,40 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
 
-        android:padding="20dp"
+        android:layout_alignParentTop="true"
 
-        android:text="@string/insert_names_title"
-        android:fontFamily="@font/cinzel_extrabold"
-        android:textColor="#000000"
-        android:background="@color/white"
-
-        android:autoSizeTextType="uniform"
-        android:autoSizeMinTextSize="20sp"
-        android:autoSizeMaxTextSize="32sp"
-        android:autoSizeStepGranularity="2sp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="30dp"
+        android:autoSizeMaxTextSize="32sp"
+        android:autoSizeMinTextSize="20sp"
+
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/white"
+        android:fontFamily="@font/cinzel_extrabold"
+        android:padding="20dp"
+        android:text="@string/insert_names_title"
+        android:textColor="#000000"
         android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@drawable/perchment3"
+        android:id="@+id/linearLayout"
+        android:layout_width="333dp"
+        android:layout_height="262dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="center"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="93dp"
+        android:background="@drawable/perchment3"
         android:orientation="vertical"
         android:paddingLeft="60dp"
-        android:paddingRight="60dp"
-        android:paddingTop="45dp">
+        android:paddingTop="45dp"
+        android:paddingRight="60dp">
 
         <EditText
             android:id="@+id/editTextName1"
@@ -41,9 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/cinzel_bold"
+            android:hint="Primo nome..."
             android:textColor="#000000"
-            android:textColorHint="#000000"
-            android:hint="Primo nome" />
+            android:textColorHint="#75000000" />
 
         <EditText
             android:id="@+id/editTextName2"
@@ -51,9 +62,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/cinzel_bold"
+            android:hint="Secondo nome..."
             android:textColor="#000000"
-            android:textColorHint="#000000"
-            android:hint="Secondo nome" />
+            android:textColorHint="#75000000" />
 
         <EditText
             android:id="@+id/editTextName3"
@@ -61,9 +72,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/cinzel_bold"
+            android:hint="Terzo nome..."
             android:textColor="#000000"
-            android:textColorHint="#000000"
-            android:hint="Terzo nome" />
+            android:textColorHint="#75000000" />
 
         <EditText
             android:id="@+id/editTextName4"
@@ -71,9 +82,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/cinzel_bold"
+            android:hint="Quarto nome..."
             android:textColor="#000000"
-            android:textColorHint="#000000"
-            android:hint="Quarto nome" />
+            android:textColorHint="#75000000" />
 
         <EditText
             android:id="@+id/editTextName5"
@@ -81,9 +92,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/cinzel_bold"
+            android:hint="Quinto nome..."
             android:textColor="#000000"
-            android:textColorHint="#000000"
-            android:hint="Quinto nome" />
+            android:textColorHint="#75000000" />
 
     </LinearLayout>
 
@@ -91,13 +102,18 @@
         android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="center"
-        android:fontFamily="@font/cinzel_extrabold"
-        android:textColor="#000000"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="50dp"
         android:background="#C2B280"
-        android:layout_marginTop="20dp"
-        android:textSize="20dp"
+        android:fontFamily="@font/cinzel_extrabold"
         android:padding="12dp"
-        android:text="Mostra Province" />
+        android:text="Mostra Province"
+        android:textColor="#000000"
+        android:textSize="20dp" />
 
-</LinearLayout>
+</RelativeLayout>
