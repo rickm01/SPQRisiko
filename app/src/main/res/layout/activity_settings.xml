@@ -3,13 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/background_color"> <!-- Cambia il colore di sfondo -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_language"
-        android:textSize="18sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
 
     <RadioGroup
@@ -17,19 +19,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioItalian"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Italian" />
+            android:padding="8dp">
 
-        <RadioButton
-            android:id="@+id/radioEnglish"
+            <RadioButton
+                android:id="@+id/radioItalian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italiano"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/italy"/>  <!-- Descrizione per l'accessibilità -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/english" />
+            android:padding="8dp">
 
-        <!-- Aggiungi altre lingue qui -->
+            <RadioButton
+                android:id="@+id/radioEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/uk"/>
+
+        </LinearLayout>
+
+        <!-- Aggiungi altre lingue qui con le loro bandiere -->
 
     </RadioGroup>
+
 </LinearLayout>
