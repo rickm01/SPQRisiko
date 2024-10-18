@@ -43,10 +43,10 @@ public class FirstPageActivity extends AppCompatActivity {
                 intent.putExtra("name4", name4);
                 intent.putExtra("name5", name5);
                 startActivity(intent);}
-                else{
-                    Toast.makeText(FirstPageActivity.this, "Per favore, inserisci tutti i nomi prima di continuare.", Toast.LENGTH_SHORT).show();
-
+                else {
+                    Toast.makeText(FirstPageActivity.this, getString(R.string.please_enter_all_names), Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
     }

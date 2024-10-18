@@ -81,15 +81,15 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
 
     private void showConfirmationDialog() {
         new AlertDialog.Builder(this)
-                .setTitle("Conferma Uscita")
-                .setMessage("Vuoi davvero tornare indietro?")
-                .setPositiveButton("Sì", new DialogInterface.OnClickListener() {
+                .setTitle(getString(R.string.confirm_exit_title))
+                .setMessage(getString(R.string.confirm_exit_message))
+                .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         // Chiudi l'activity se l'utente conferma
                         finish();
                     }
                 })
-                .setNegativeButton("No", null)  // Annulla l'azione se preme "No"
+                .setNegativeButton(getString(R.string.no), null)  // Annulla l'azione se preme "No"
                 .show();
     }
 

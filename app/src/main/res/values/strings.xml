@@ -14,4 +14,11 @@
     <string name="title_provinces_page">Province assegnate ai giocatori</string>
     <string name="player_1">Giocatore 1</string>
     <string name="provinces_player1">Province di Giocatore 1</string>
+    <string name="confirm_exit_title">Conferma Uscita</string>
+    <string name="confirm_exit_message">Vuoi davvero tornare indietro?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="generate_sfide">Genera le sfide</string>
+    <string name="settings">Impostazioni</string>
+    <string name="please_enter_all_names">Per favore, inserisci tutti i nomi prima di continuare.</string>
 </resources>

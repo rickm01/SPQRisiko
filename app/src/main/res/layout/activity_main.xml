@@ -19,7 +19,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Genera le sfide"
+        android:text="@string/generate_sfide"
         android:fontFamily="@font/cinzel_regular"
         android:layout_marginTop="20dp" />
 
@@ -27,7 +27,7 @@
         android:id="@+id/buttonSettings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Impostazioni"
+        android:text="@string/settings"
         android:fontFamily="@font/cinzel_regular"
         android:layout_marginTop="20dp" />
 
