@@ -29,6 +29,10 @@
     <!-- Pagina2 Activity -->
     <activity android:name=".SecondPageActivity" />
 
+    <!-- SettingPagina Activity -->
+    <activity android:name=".SettingPageActivity" />
+
+
 
 </application>
 </manifest>

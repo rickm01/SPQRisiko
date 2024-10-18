@@ -43,53 +43,28 @@
 
             <EditText
                 android:id="@+id/editTextName1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:fontFamily="@font/cinzel_bold"
-                android:hint="Primo nome..."
-                android:textColor="#000000"
-                android:textColorHint="#75000000" />
+                android:hint="@string/first_name"
+                style="@style/EditTextFirstPage"/>
 
             <EditText
                 android:id="@+id/editTextName2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:fontFamily="@font/cinzel_bold"
-                android:hint="Secondo nome..."
-                android:textColor="#000000"
-                android:textColorHint="#75000000" />
+                android:hint="@string/second_name"
+                style="@style/EditTextFirstPage"/>
 
             <EditText
                 android:id="@+id/editTextName3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:fontFamily="@font/cinzel_bold"
-                android:hint="Terzo nome..."
-                android:textColor="#000000"
-                android:textColorHint="#75000000" />
+                android:hint="@string/third_name"
+                style="@style/EditTextFirstPage"/>
 
             <EditText
                 android:id="@+id/editTextName4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:fontFamily="@font/cinzel_bold"
-                android:hint="Quarto nome..."
-                android:textColor="#000000"
-                android:textColorHint="#75000000" />
+                android:hint="@string/fourth_name"
+                style="@style/EditTextFirstPage"/>
 
             <EditText
                 android:id="@+id/editTextName5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:fontFamily="@font/cinzel_bold"
-                android:hint="Quinto nome..."
-                android:textColor="#000000"
-                android:textColorHint="#75000000" />
+                android:hint="@string/fifth_name"
+                style="@style/EditTextFirstPage"/>
 
             <Button
                 android:id="@+id/buttonSubmit"
@@ -100,7 +75,7 @@
                 android:background="#C2B280"
                 android:fontFamily="@font/cinzel_extrabold"
                 android:padding="12dp"
-                android:text="Mostra Province"
+                android:text="@string/show_provinces"
                 android:textColor="#000000"
                 android:textSize="20dp" />
 

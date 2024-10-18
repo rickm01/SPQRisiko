@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Province assegnate ai giocatori"
+            android:text="@string/title_provinces_page"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -24,18 +24,31 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"/>
 
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perchment4" />
+
         <!-- Card per il giocatore 1 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:elevation="6dp"
-            android:backgroundTint="#FFC107"
+            android:backgroundTint="#00FFC107"
             android:padding="16dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <!-- Nome del giocatore -->
@@ -43,7 +56,7 @@
                     android:id="@+id/player1Name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Giocatore 1"
+                    android:text="@string/player_1"
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:fontFamily="@font/cinzel_bold"
@@ -54,11 +67,12 @@
                     android:id="@+id/player1Provinces"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Province di Giocatore 1"
+                    android:text="@string/provinces_player1"
                     android:textColor="@color/black"
                     android:fontFamily="@font/cinzel_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+        </FrameLayout>
 
         <!-- Ripetere per ogni giocatore -->
         <!-- Card per il giocatore 2 -->

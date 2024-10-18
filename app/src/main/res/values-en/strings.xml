@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SPQRisiko</string>
+    <string name="insert_names_title">Enter the names of the players from first to last\n</string>
+    <string name="button1">Generate provinces</string>
+    <string name="first_name">First name...</string>
+    <string name="second_name">Second name...</string>
+    <string name="third_name">Third name...</string>
+    <string name="fourth_name">Fourth name...</string>
+    <string name="fifth_name">Fifth name...</string>
+    <string name="show_provinces">Show Provinces</string>
+    <string name="select_language">Select Language</string>
+    <string name="Italian">Italian</string>
+    <string name="english">English</string>
+    <string name="title_provinces_page">Provinces assigned to players</string>
+    <string name="player_1">Player 1</string>
+    <string name="provinces_player1">Provinces of Player 1</string>
+</resources>

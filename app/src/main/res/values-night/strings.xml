@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="insert_names_title">Inserisci i nomi dei giocatori dal primo all\'ultimo\n\n</string>
+    <string name="button1">Genera le province</string>
+    <string name="first_name">Primo nome...</string>
+    <string name="second_name">Secondo nome...</string>
 </resources>
