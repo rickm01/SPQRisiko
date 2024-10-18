@@ -3,7 +3,10 @@ package com.example.SPQRisiko;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.DialogInterface;
+import android.app.AlertDialog ;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,10 +26,18 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
             "Corsica", "Sardinia", "Sicilia", "Creta", "Cipro", "Noricum", "Illiria", "Dalmazia", "Pannonia", "Dacia", "Moesia", "Thracia", "Macedonia", "Epirus", "Achaia"
     };
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_province);
+
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                showConfirmationDialog();
+            }
+        });
 
         // Collegamento delle TextView del layout
         player1Name = findViewById(R.id.player1Name);
@@ -64,6 +75,22 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         setProvincesForPlayer(player3Provinces, provinces.subList(18, 27));
         setProvincesForPlayer(player4Provinces, provinces.subList(27, 36));
         setProvincesForPlayer(player5Provinces, provinces.subList(36, 45));
+
+
+    }
+
+    private void showConfirmationDialog() {
+        new AlertDialog.Builder(this)
+                .setTitle("Conferma Uscita")
+                .setMessage("Vuoi davvero tornare indietro?")
+                .setPositiveButton("Sì", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Chiudi l'activity se l'utente conferma
+                        finish();
+                    }
+                })
+                .setNegativeButton("No", null)  // Annulla l'azione se preme "No"
+                .show();
     }
 
     // Funzione per assegnare le province a un giocatore

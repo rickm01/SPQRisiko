@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">SPQRisiko</string>
-    <string name="insert_names_title">Inserisci i nomi dei giocatori dal primo all\'ultimo</string>
+    <string name="insert_names_title">Inserisci i nomi dei giocatori dal primo all\'ultimo\n</string>
 </resources>

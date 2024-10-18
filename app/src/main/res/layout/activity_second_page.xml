@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="250dp"
+    android:layout_height="wrap_content"
     android:gravity="center"
     android:padding="16dp"
-    android:orientation="vertical"> <!-- Cambiato in vertical -->
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="@drawable/perchment3"
-        android:padding="10dp"> <!-- Padding per distanziare i contenuti -->
+    android:orientation="vertical"
+    android:background="@drawable/perchment4">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:text="\nBenvenuto in Pagina 2\ncici\n\n\n"
+        android:layout_marginHorizontal="65dp"
+        android:text="Benvenuto in Pagina\"
         android:textSize="24sp"
         android:layout_gravity="center"
-
         android:textColor="#000000"
         android:fontFamily="@font/cinzel_regular"/>
 
@@ -31,19 +24,6 @@
         android:layout_gravity="center"
         android:text="Button" />
 
-
-
-</LinearLayout>
-
-    <EditText
-        android:id="@+id/editTextName1"
-        android:layout_width="380dp"
-        android:layout_height="15dp"
-        android:layout_gravity="center"
-        android:fontFamily="@font/cinzel_regular"
-        android:hint="Primo nome"
-        android:paddingTop="30dp"
-        android:textColor="#000000" />
 
 
 </LinearLayout>
