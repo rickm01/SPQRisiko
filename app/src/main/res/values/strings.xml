@@ -9,8 +9,8 @@
     <string name="fifth_name">Quinto nome...</string>
     <string name="show_provinces">Mostra Province</string>
     <string name="select_language">Seleziona la lingua</string>
-    <string name="Italian">Italiano</string>
-    <string name="english">English</string>
+    <string name="Italian">Italiano 🇮🇹</string>
+    <string name="english">English 🇬🇧</string>
     <string name="title_provinces_page">Province assegnate ai giocatori</string>
     <string name="player_1">Giocatore 1</string>
     <string name="provinces_player1">Province di Giocatore 1</string>

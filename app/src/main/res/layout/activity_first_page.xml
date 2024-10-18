@@ -67,6 +67,18 @@
                 style="@style/EditTextFirstPage"/>
 
             <Button
+                android:id="@+id/buttonColorPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#C2B280"
+                android:fontFamily="@font/cinzel_extrabold"
+                android:padding="12dp"
+                android:text="Seleziona Colore"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Button
                 android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

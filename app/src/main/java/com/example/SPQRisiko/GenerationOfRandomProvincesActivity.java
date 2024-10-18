@@ -107,7 +107,7 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         List<String> provinces = new ArrayList<>();
         List<String> allProvincesTemp = new ArrayList<>(Arrays.asList(allProvinces));
 
-        // Utilizza un seed basato sul tempo per randomizzare l'ordine delle province
+        // Utilizza un seed basato sul tempo.xml per randomizzare l'ordine delle province
         long seed = System.currentTimeMillis();
         Random random = new Random(seed);
 
