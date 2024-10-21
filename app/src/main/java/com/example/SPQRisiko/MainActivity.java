@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
         Button buttonSettings = findViewById(R.id.buttonSettings);
+        Button buttonChallengesList = findViewById(R.id.buttonChallengesList);
 
         // Imposta il comportamento per Button 1
         button1.setOnClickListener(v -> {
@@ -39,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
         buttonSettings.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, SettingPageActivity.class);
             startActivityForResult(intent, 1); // Usa startActivityForResult per aspettare il risultato
+        });
+
+        // Imposta il comportamento per Button 1
+        buttonChallengesList.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ChallengesListActivity.class);
+            startActivity(intent);
         });
     }
 

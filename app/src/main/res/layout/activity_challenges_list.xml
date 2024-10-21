@@ -1,0 +1,462 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sand"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titolo della pagina -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cinzel_bold"
+            android:gravity="center"
+            android:text="@string/title_challenges_page"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT1"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT1_dominate_the_empire" />
+
+                <TextView
+                    android:id="@+id/CC1"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC1_dominate_the_empire" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT2"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT2_control_the_mediterranean" />
+
+                <TextView
+                    android:id="@+id/CC2"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC2_control_the_mediterranean" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT3"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT3_control_the_atlantic" />
+
+                <TextView
+                    android:id="@+id/CC3"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC3_control_the_atlantic" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT4"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT4_roman_legacy" />
+
+                <TextView
+                    android:id="@+id/CC4"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC4_roman_legacy" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT5"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT5_scipio_africanus" />
+
+                <TextView
+                    android:id="@+id/CC5"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC5_scipio_africanus" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT6"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT6_julius_caesar" />
+
+                <TextView
+                    android:id="@+id/CC6"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC6_julius_caesar" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT7"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT7_paella_and_baguette" />
+
+                <TextView
+                    android:id="@+id/CC7"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC7_paella_and_baguette" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT8"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT8_return_of_the_gladiator" />
+
+                <TextView
+                    android:id="@+id/CC8"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC8_return_of_the_gladiator" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT9"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT9_mediterranean_islander" />
+
+                <TextView
+                    android:id="@+id/CC9"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC9_mediterranean_islander" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT10"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT10_greek_emperor" />
+
+                <TextView
+                    android:id="@+id/CC10"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC10_greek_emperor" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT11"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT11_great_sultan" />
+
+                <TextView
+                    android:id="@+id/CC11"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC11_great_sultan" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT12"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT12_the_trinity" />
+
+                <TextView
+                    android:id="@+id/CC12"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC12_the_trinity" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT13"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT13_the_pirate" />
+
+                <TextView
+                    android:id="@+id/CC13"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC13_the_pirate" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT14"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT14_the_warlord" />
+
+                <TextView
+                    android:id="@+id/CC14"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC14_the_warlord" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/CT15"
+                    style="@style/TitleProvinces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CT15_mark_antony" />
+
+                <TextView
+                    android:id="@+id/CC15"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="@string/CC15_mark_antony" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

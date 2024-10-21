@@ -29,6 +29,9 @@
     <!-- Pagina2 Activity -->
     <activity android:name=".SecondPageActivity" />
 
+    <!-- ListChallenges Activity -->
+    <activity android:name=".ChallengesListActivity" />
+
     <!-- SettingPagina Activity -->
     <activity android:name=".SettingPageActivity" />
 
