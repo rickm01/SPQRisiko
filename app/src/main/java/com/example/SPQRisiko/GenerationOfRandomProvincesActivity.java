@@ -5,8 +5,9 @@ import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.DialogInterface;
-import android.app.AlertDialog ;
+import android.app.AlertDialog;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -52,19 +53,21 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         player4Provinces = findViewById(R.id.player4Provinces);
         player5Provinces = findViewById(R.id.player5Provinces);
 
+        String title = "";
+
         // Ricevi i nomi dall'activity precedente
-        String name1 = getIntent().getStringExtra("name1");
-        String name2 = getIntent().getStringExtra("name2");
-        String name3 = getIntent().getStringExtra("name3");
-        String name4 = getIntent().getStringExtra("name4");
-        String name5 = getIntent().getStringExtra("name5");
+        String name1 = title + getIntent().getStringExtra("name1");
+        String name2 = title + getIntent().getStringExtra("name2");
+        String name3 = title + getIntent().getStringExtra("name3");
+        String name4 = title + getIntent().getStringExtra("name4");
+        String name5 = title + getIntent().getStringExtra("name5");
 
         // Imposta i nomi nei TextView
-        player1Name.setText(name1);
-        player2Name.setText(name2);
-        player3Name.setText(name3);
-        player4Name.setText(name4);
-        player5Name.setText(name5);
+        player1Name.setText(getString(R.string.provinces_of_player, name1));
+        player2Name.setText(getString(R.string.provinces_of_player, name2));
+        player3Name.setText(getString(R.string.provinces_of_player, name3));
+        player4Name.setText(getString(R.string.provinces_of_player, name4));
+        player5Name.setText(getString(R.string.provinces_of_player, name5));
 
         // Ottieni le province corrispondenti ai nomi
         List<String> provinces = getProvinces();
@@ -116,6 +119,15 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
             int randomPos = random.nextInt(allProvincesTemp.size());
             provinces.add(allProvincesTemp.get(randomPos));
             allProvincesTemp.remove(randomPos);
+        }
+
+        int j = 0;
+        for (int i = 0; i < provinces.size(); i++) {
+            if (j == 9) {
+                j = 0;
+            }
+            provinces.set(i, j + 1 + ". " + provinces.get(i));
+            j++;
         }
         return provinces;
     }

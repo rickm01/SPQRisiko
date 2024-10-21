@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Imposta il bordo marrone -->
+    <stroke
+        android:width="24dp"
+        android:color="#8B4513" /> <!-- Colore marrone -->
+
+    <!-- Imposta gli angoli arrotondati per un effetto più autentico
+    <corners android:radius="8dp" />-->
+
+
+    <!-- Colore di sfondo scuro per la "cera" -->
+    <solid android:color="#2B2B2B" /> <!-- Colore scuro per lo sfondo -->
+
+    <!-- Margine interno tra il bordo e il contenuto -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+</shape>

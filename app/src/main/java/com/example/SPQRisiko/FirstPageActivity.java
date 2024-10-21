@@ -28,14 +28,14 @@ public class FirstPageActivity extends AppCompatActivity {
         editTextName4 = findViewById(R.id.editTextName4);
         editTextName5 = findViewById(R.id.editTextName5);
         buttonSubmit = findViewById(R.id.buttonSubmit);
-        buttonColorPicker = findViewById(R.id.buttonColorPicker); // Aggiungi questo
+//        buttonColorPicker = findViewById(R.id.buttonColorPicker); // Aggiungi questo
 
-        buttonColorPicker.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showColorPickerDialog();
-            }
-        });
+  //      buttonColorPicker.setOnClickListener(new View.OnClickListener() {
+    //        @Override
+      //      public void onClick(View v) {
+        //        showColorPickerDialog();
+          //  }
+       // });
 
         buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +53,7 @@ public class FirstPageActivity extends AppCompatActivity {
                     intent.putExtra("name3", name3);
                     intent.putExtra("name4", name4);
                     intent.putExtra("name5", name5);
-                    intent.putExtra("selectedColor", selectedColor); // Invia il colore selezionato
+              //      intent.putExtra("selectedColor", selectedColor); // Invia il colore selezionato
                     startActivity(intent);
                 } else {
                     Toast.makeText(FirstPageActivity.this, getString(R.string.please_enter_all_names), Toast.LENGTH_SHORT).show();

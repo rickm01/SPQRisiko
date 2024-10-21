@@ -24,6 +24,16 @@
         android:layout_gravity="center"
         android:text="Button" />
 
+    <TextView
+        android:id="@+id/editTextTabulaCerata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Province di ..."
+        android:background="@drawable/tabula_cerata_background"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:gravity="center"/>
 
 
 </LinearLayout>

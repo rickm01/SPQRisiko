@@ -21,4 +21,5 @@
     <string name="generate_sfide">Generate challenges</string>
     <string name="settings">Settings</string>
     <string name="please_enter_all_names">Please enter all names before continuing.</string>
+    <string name="provinces_of_player">%1$s\'s provinces</string>
 </resources>
