@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroudfirstpage"
     android:gravity="top|center_horizontal"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@drawable/backgroudfirstpage">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/textView"
@@ -41,36 +41,91 @@
             android:layout_marginBottom="45dp"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextName1"
-                android:hint="@string/first_name"
-                style="@style/EditTextFirstPage"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/editTextName2"
-                android:hint="@string/second_name"
-                style="@style/EditTextFirstPage"/>
+                <EditText
+                    android:id="@+id/editTextName1"
+                    style="@style/EditTextFirstPage"
+                    android:hint="@string/first_name" />
 
-            <EditText
-                android:id="@+id/editTextName3"
-                android:hint="@string/third_name"
-                style="@style/EditTextFirstPage"/>
+                <Button
+                    android:id="@+id/colorButton1"
+                    style="@style/ColorButtonFirstPage" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/editTextName4"
-                android:hint="@string/fourth_name"
-                style="@style/EditTextFirstPage"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/editTextName5"
-                android:hint="@string/fifth_name"
-                style="@style/EditTextFirstPage"/>
+                <EditText
+                    android:id="@+id/editTextName2"
+                    style="@style/EditTextFirstPage"
+                    android:hint="@string/second_name" />
 
+                <Button
+                    android:id="@+id/colorButton2"
+                    style="@style/ColorButtonFirstPage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextName3"
+                    style="@style/EditTextFirstPage"
+                    android:hint="@string/third_name" />
+
+                <Button
+                    android:id="@+id/colorButton3"
+                    style="@style/ColorButtonFirstPage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextName4"
+                    style="@style/EditTextFirstPage"
+                    android:hint="@string/fourth_name" />
+
+                <Button
+                    android:id="@+id/colorButton4"
+                    style="@style/ColorButtonFirstPage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextName5"
+                    style="@style/EditTextFirstPage"
+                    android:hint="@string/fifth_name" />
+
+                <Button
+                    android:id="@+id/colorButton5"
+                    style="@style/ColorButtonFirstPage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
             <Button
                 android:id="@+id/buttonSubmit"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:layout_below="@+id/linearLayout"
                 android:layout_gravity="center"
                 android:background="#C2B280"
@@ -78,7 +133,21 @@
                 android:padding="12dp"
                 android:text="@string/show_provinces"
                 android:textColor="#000000"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:background="#C2B280"
+                android:fontFamily="@font/cinzel_extrabold"
+                android:text="R"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
@@ -86,15 +155,15 @@
 
 </RelativeLayout>
 
-<!---             <Button
-                android:id="@+id/buttonColorPicker"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:background="#C2B280"
-                android:fontFamily="@font/cinzel_extrabold"
-                android:padding="12dp"
-                android:text="Seleziona Colore"
-                android:textColor="#000000"
-                android:textSize="20dp" />
--->
+    <!---             <Button
+                    android:id="@+id/buttonColorPicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="#C2B280"
+                    android:fontFamily="@font/cinzel_extrabold"
+                    android:padding="12dp"
+                    android:text="Seleziona Colore"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+    -->

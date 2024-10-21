@@ -18,22 +18,16 @@
         android:textColor="#000000"
         android:fontFamily="@font/cinzel_regular"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Button" />
 
-    <TextView
-        android:id="@+id/editTextTabulaCerata"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Province di ..."
-        android:background="@drawable/tabula_cerata_background"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:padding="12dp"
-        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/colorButton"
+        android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/button_background"
+    android:text="Scegli Colore"
+    android:textColor="@android:color/black"
+    android:textSize="16sp"/>
 
 
 </LinearLayout>
