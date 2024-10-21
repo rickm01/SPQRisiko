@@ -2,6 +2,7 @@ package com.example.SPQRisiko;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.view.View;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,7 +27,6 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
             "Britannia", "Galicia", "Baetica", "Lusitania", "Terraconensis", "Aquitania", "Narbonensis", "Lugdunense", "Belgica", "GermaniaInferior", "Raetia", "Cisalpina", "Italia", "Baleares",
             "Corsica", "Sardinia", "Sicilia", "Creta", "Cipro", "Noricum", "Illiria", "Dalmazia", "Pannonia", "Dacia", "Moesia", "Thracia", "Macedonia", "Epirus", "Achaia"
     };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,12 +55,18 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
 
         String title = "";
 
-        // Ricevi i nomi dall'activity precedente
+        // Ricevi i nomi e i colori dall'activity precedente
         String name1 = title + getIntent().getStringExtra("name1");
         String name2 = title + getIntent().getStringExtra("name2");
         String name3 = title + getIntent().getStringExtra("name3");
         String name4 = title + getIntent().getStringExtra("name4");
         String name5 = title + getIntent().getStringExtra("name5");
+
+        String color1 = getIntent().getStringExtra("color1");
+        String color2 = getIntent().getStringExtra("color2");
+        String color3 = getIntent().getStringExtra("color3");
+        String color4 = getIntent().getStringExtra("color4");
+        String color5 = getIntent().getStringExtra("color5");
 
         // Imposta i nomi nei TextView
         player1Name.setText(getString(R.string.provinces_of_player, name1));
@@ -68,6 +74,13 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         player3Name.setText(getString(R.string.provinces_of_player, name3));
         player4Name.setText(getString(R.string.provinces_of_player, name4));
         player5Name.setText(getString(R.string.provinces_of_player, name5));
+
+        // Imposta i colori delle card
+        setCardColor(R.id.color1, color1);
+        setCardColor(R.id.color2, color2);
+        setCardColor(R.id.color3, color3);
+        setCardColor(R.id.color4, color4);
+        setCardColor(R.id.color5, color5);
 
         // Ottieni le province corrispondenti ai nomi
         List<String> provinces = getProvinces();
@@ -78,8 +91,6 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         setProvincesForPlayer(player3Provinces, provinces.subList(18, 27));
         setProvincesForPlayer(player4Provinces, provinces.subList(27, 36));
         setProvincesForPlayer(player5Provinces, provinces.subList(36, 45));
-
-
     }
 
     private void showConfirmationDialog() {
@@ -110,7 +121,7 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
         List<String> provinces = new ArrayList<>();
         List<String> allProvincesTemp = new ArrayList<>(Arrays.asList(allProvinces));
 
-        // Utilizza un seed basato sul tempo.xml per randomizzare l'ordine delle province
+        // Utilizza un seed basato sul tempo per randomizzare l'ordine delle province
         long seed = System.currentTimeMillis();
         Random random = new Random(seed);
 
@@ -130,5 +141,32 @@ public class GenerationOfRandomProvincesActivity extends AppCompatActivity {
             j++;
         }
         return provinces;
+    }
+
+    // Metodo per impostare il colore della card
+    private void setCardColor(int cardViewId, String color) {
+        View cardView = findViewById(cardViewId);
+        if (cardView != null && color != null) {
+            int colorValue = getColorValue(color);
+            cardView.setBackgroundColor(colorValue);
+        }
+    }
+
+    // Metodo per convertire il nome del colore in un valore intero
+    private int getColorValue(String colorName) {
+        switch (colorName) {
+            case "Rosso":
+                return 0xFFFF0000; // Rosso
+            case "Verde":
+                return 0xFF00FF00; // Verde
+            case "Blu":
+                return 0xFF0000FF; // Blu
+            case "Giallo":
+                return 0xFFFFFF00; // Giallo
+            case "Nero":
+                return 0xFF000000; // Nero
+            default:
+                return 0x00000000; // Colore trasparente di default
+        }
     }
 }
