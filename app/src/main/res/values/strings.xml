@@ -73,4 +73,9 @@
     <string name="CC15_mark_antony">Conquista la Gallia Narbonese e la Cisalpina, Italia, Egitto e Grecia e mantieni per 2 turni con 3 truppe ciascuna.</string>
 
     <string name="title_challenges_page">Le sfide</string>
+    <string name="challenges_assigned">Sfide assegnate</string>
+    <string name="show_challenge">Mostra sfida</string>
+    <string name="hide_challenge">Nascondi sfida</string>
+
+
 </resources>

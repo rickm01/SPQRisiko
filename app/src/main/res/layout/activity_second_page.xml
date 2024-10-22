@@ -1,33 +1,270 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:padding="16dp"
-    android:orientation="vertical"
-    android:background="@drawable/perchment4">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sand"
+    android:padding="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="65dp"
-        android:text="Benvenuto in Pagina\"
-        android:textSize="24sp"
-        android:layout_gravity="center"
-        android:textColor="#000000"
-        android:fontFamily="@font/cinzel_regular"/>
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
 
+        <!-- Titolo della pagina -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/cinzel_bold"
+            android:gravity="center"
+            android:text="@string/challenges_assigned"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
+        <!-- Card per il giocatore nero -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FFC107"
+            android:elevation="6dp"
+            android:padding="16dp">
 
-    <Button
-        android:id="@+id/colorButton"
-        android:layout_width="100dp"
-    android:layout_height="100dp"
-    android:background="@drawable/button_background"
-    android:text="Scegli Colore"
-    android:textColor="@android:color/black"
-    android:textSize="16sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-</LinearLayout>
+                    <TextView
+                        android:id="@+id/player_black"
+                        style="@style/TitleProvinces"
+                        android:text="Giocatore nero" />
+
+                    <TextView
+                        android:id="@+id/color_black"
+                        style="@style/ColorProvinces"
+                        android:background="@color/black" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/challenge_black"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="Sfide del nero"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/showBlackChallengeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="@string/show_challenge" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card per il giocatore blu -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/player_blue"
+                        style="@style/TitleProvinces"
+                        android:text="Giocatore blu" />
+
+                    <TextView
+                        android:id="@+id/color_blue"
+                        style="@style/ColorProvinces"
+                        android:background="#007BFF" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/challenge_blue"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="Sfide del blu"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/showBlueChallengeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="@string/show_challenge" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card per il giocatore rosso -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/player_red"
+                        style="@style/TitleProvinces"
+                        android:text="Giocatore rosso" />
+
+                    <TextView
+                        android:id="@+id/color_red"
+                        style="@style/ColorProvinces"
+                        android:background="#FF4136" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/challenge_red"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="Sfide del rosso"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/showRedChallengeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="@string/show_challenge" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card per il giocatore verde -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/player_green"
+                        style="@style/TitleProvinces"
+                        android:text="Giocatore verde" />
+
+                    <TextView
+                        android:id="@+id/color_green"
+                        style="@style/ColorProvinces"
+                        android:background="#2ECC40" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/challenge_green"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="Sfide del verde"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/showGreenChallengeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="@string/show_challenge" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card per il giocatore giallo -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tabula_cerata_background"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/player_yellow"
+                        style="@style/TitleProvinces"
+                        android:text="Giocatore giallo" />
+
+                    <TextView
+                        android:id="@+id/color_yellow"
+                        style="@style/ColorProvinces"
+                        android:background="#FFC107" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/challenge_yellow"
+                    style="@style/ContentProvinces"
+                    android:layout_margin="30sp"
+                    android:text="Sfide del giallo"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/showYellowChallengeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:text="@string/show_challenge" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -74,5 +74,9 @@
 
 
     <string name="title_challenges_page">The challenges</string>
+    <string name="challenges_assigned">Assigned challenges</string>
+    <string name="show_challenge">Show challenge</string>
+    <string name="hide_challenge">Hide challenge</string>
+
 
 </resources>
