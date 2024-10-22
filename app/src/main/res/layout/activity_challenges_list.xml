@@ -23,6 +23,7 @@
             android:textColor="@color/white"
             android:textSize="30sp" />
 
+        <!-- CardView I -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,23 +40,15 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
                     <TextView
-                        style="@style/TitleProvinces"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:fontFamily="@font/cinzel_extrabold"
-                        android:textColor="@color/white"
+                        style="@style/NumberChallenges"
                         android:text="I."/>
 
                     <TextView
                         android:id="@+id/CT1"
-                        style="@style/TitleProvinces"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:layout_weight="1"
+                        style="@style/TitleChallenges"
                         android:text="@string/CT1_dominate_the_empire" />
                 </LinearLayout>
 
@@ -67,6 +60,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView II -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,12 +75,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT2"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT2_control_the_mediterranean" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="II."/>
+
+                    <TextView
+                        android:id="@+id/CT2"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT2_control_the_mediterranean" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC2"
@@ -96,6 +97,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView III -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,12 +112,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT3"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT3_control_the_atlantic" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="III."/>
+
+                    <TextView
+                        android:id="@+id/CT3"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT3_control_the_atlantic" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC3"
@@ -125,6 +134,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView IV -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -139,12 +149,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT4"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT4_roman_legacy" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="IV."/>
+
+                    <TextView
+                        android:id="@+id/CT4"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT4_roman_legacy" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC4"
@@ -154,6 +171,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView V -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,12 +186,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT5"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT5_scipio_africanus" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="V."/>
+
+                    <TextView
+                        android:id="@+id/CT5"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT5_scipio_africanus" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC5"
@@ -183,6 +208,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView VI -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -197,12 +223,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT6"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT6_julius_caesar" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="VI."/>
+
+                    <TextView
+                        android:id="@+id/CT6"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT6_julius_caesar" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC6"
@@ -212,6 +245,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView VII -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -226,12 +260,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT7"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT7_paella_and_baguette" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="VII."/>
+
+                    <TextView
+                        android:id="@+id/CT7"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT7_paella_and_baguette" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC7"
@@ -241,6 +282,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView VIII -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -255,12 +297,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT8"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT8_return_of_the_gladiator" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="VIII."/>
+
+                    <TextView
+                        android:id="@+id/CT8"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT8_return_of_the_gladiator" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC8"
@@ -270,6 +319,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView IX -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -284,12 +334,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT9"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT9_mediterranean_islander" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="IX."/>
+
+                    <TextView
+                        android:id="@+id/CT9"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT9_mediterranean_islander" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC9"
@@ -299,6 +356,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView X -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -313,12 +371,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT10"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT10_greek_emperor" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="X."/>
+
+                    <TextView
+                        android:id="@+id/CT10"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT10_greek_emperor" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC10"
@@ -328,6 +393,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView XI -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -342,12 +408,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT11"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT11_great_sultan" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="XI."/>
+
+                    <TextView
+                        android:id="@+id/CT11"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT11_great_sultan" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC11"
@@ -357,6 +430,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView XII -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -371,12 +445,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT12"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT12_the_trinity" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="XII."/>
+
+                    <TextView
+                        android:id="@+id/CT12"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT12_the_trinity" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC12"
@@ -386,6 +467,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView XIII -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -400,12 +482,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT13"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT13_the_pirate" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="XIII."/>
+
+                    <TextView
+                        android:id="@+id/CT13"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT13_the_pirate" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC13"
@@ -415,6 +504,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView XIV -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -429,12 +519,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT14"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT14_the_warlord" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="XIV."/>
+
+                    <TextView
+                        android:id="@+id/CT14"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT14_the_warlord" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC14"
@@ -444,6 +541,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <!-- CardView XV -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -458,12 +556,19 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT15"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CT15_mark_antony" />
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/NumberChallenges"
+                        android:text="XV."/>
+
+                    <TextView
+                        android:id="@+id/CT15"
+                        style="@style/TitleChallenges"
+                        android:text="@string/CT15_mark_antony" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC15"
@@ -474,4 +579,5 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
+
 </ScrollView>
