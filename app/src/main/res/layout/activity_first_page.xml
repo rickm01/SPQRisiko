@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroudfirstpage"
+    android:background="@drawable/harbour"
     android:gravity="top|center_horizontal"
     android:orientation="vertical"
     android:padding="16dp">
@@ -18,7 +18,7 @@
         android:autoSizeMinTextSize="20sp"
         android:autoSizeStepGranularity="2sp"
         android:autoSizeTextType="uniform"
-        android:background="#9A0000"
+        android:background="#8B4513"
         android:fontFamily="@font/cinzel_extrabold"
         android:padding="20dp"
         android:text="@string/insert_names_title"

@@ -1,21 +1,21 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sand"
-    android:padding="16dp">
+    android:background="@drawable/battlefield"
+    android:padding="16sp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:padding="8sp">
 
         <!-- Titolo della pagina -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:fontFamily="@font/cinzel_bold"
             android:gravity="center"
             android:text="@string/title_provinces_page"
@@ -28,10 +28,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:backgroundTint="#FFC107"
-            android:elevation="6dp"
-            android:padding="16dp">
+            android:elevation="6sp"
+            android:padding="16sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,10 +65,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:backgroundTint="#FFC107"
-            android:elevation="6dp"
-            android:padding="16dp">
+            android:elevation="6sp"
+            android:padding="16sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -103,10 +103,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:backgroundTint="#FFC107"
-            android:elevation="6dp"
-            android:padding="16dp">
+            android:elevation="6sp"
+            android:padding="16sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -140,10 +140,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:backgroundTint="#FFC107"
-            android:elevation="6dp"
-            android:padding="16dp">
+            android:elevation="6sp"
+            android:padding="16sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -176,10 +176,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16sp"
             android:backgroundTint="#FFC107"
-            android:elevation="6dp"
-            android:padding="16dp">
+            android:elevation="6sp"
+            android:padding="16sp">
 
             <LinearLayout
                 android:layout_width="match_parent"

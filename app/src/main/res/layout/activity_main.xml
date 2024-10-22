@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:fontFamily="@font/cinzel_regular"
+    android:background="@drawable/colosseum"
     android:padding="16dp">
 
     <Button

@@ -1,7 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sand"
+    android:background="@drawable/temple"
     android:padding="16dp">
 
     <LinearLayout
@@ -13,15 +13,15 @@
 
         <!-- Titolo della pagina -->
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:background="@drawable/tabula_cerata_background"
             android:fontFamily="@font/cinzel_bold"
             android:gravity="center"
             android:text="@string/title_challenges_page"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textColor="@color/white"
+            android:textSize="30sp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -37,12 +37,27 @@
                 android:background="@drawable/tabula_cerata_background"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/CT1"
-                    style="@style/TitleProvinces"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/CT1_dominate_the_empire" />
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/TitleProvinces"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:fontFamily="@font/cinzel_extrabold"
+                        android:textColor="@color/white"
+                        android:text="I."/>
+
+                    <TextView
+                        android:id="@+id/CT1"
+                        style="@style/TitleProvinces"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:text="@string/CT1_dominate_the_empire" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/CC1"
