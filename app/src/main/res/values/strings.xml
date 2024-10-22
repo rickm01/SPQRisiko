@@ -24,22 +24,6 @@
     <string name="provinces_of_player">Province di %1$s</string>
     <string name="see_challenges">Visualizza le sfide</string>
 
-    <string name="C1_dominate_the_empire">Dominare l\'Impero: Conquistare 16 province e controllarle con almeno tre armate ciascuna.</string>
-    <string name="C2_control_the_mediterranean">Controllo dei Mari: Avere il controllo del Mar Mediterraneo.</string>
-    <string name="C3_control_the_atlantic">Controllo dell\'Atlantico: Conquistare tutte le province costiere dell\'Atlantico avendo almeno due armate in ogni provincia marittima e controllo dei mari nell\'Atlantico.</string>
-    <string name="C4_roman_legacy">Eredita\' Romana: Conquistare e controllare tutte le province italiane (Cisalpina, Italia, Sardinia, Sicilia, Corsica) con almeno quattro armate ciascuna.</string>
-    <string name="C5_scipio_africanus">Scipione l\'Africano: Conquistare tutte le province africane e mantenere il controllo per almeno tre turni.</string>
-    <string name="C6_julius_caesar">Giulio Cesare: Conquistare tutte le province della Gallia (Gallia Cisalpina, Gallia Narbonense, Belgica, Germania Inferior) e controllarle con almeno due armate ciascuna.</string>
-    <string name="C7_paella_and_baguette">Paella e Baguette: Conquistare tutte le province della Francia e della Spagna e tenerle per due turni.</string>
-    <string name="C8_return_of_the_gladiator">Ritorno del gladiatore: Conquista 7 province in un unico turno.</string>
-    <string name="C9_mediterranean_islander">L\'isolano mediterraneo: Controlla tutte le isole del Mediterraneo con almeno 3 unità ciascuna.</string>
-    <string name="C10_greek_emperor">L\'imperatore greco: Controlla tutta l\'Europa orientale.</string>
-    <string name="C11_great_sultan">Il grande sultano: Conquista tutta l\'Asia Minore fino all\'Egitto non compreso (non servono le isole).</string>
-    <string name="C12_the_trinity">La Trinità: Controlla almeno tre province per ogni continente (Europa, Africa, Asia) avendo almeno due armate in ogni provincia.</string>
-    <string name="C13_the_pirate">Il pirata: Possiedi il controllo dei mari in 7 mari oppure possiedi 12 navi.</string>
-    <string name="C14_the_warlord">Il guerrafondaio: Conquista 2 territori di ogni giocatore nello stesso turno. Per ogni giocatore mancante aggiungi 2 territori in totale.</string>
-    <string name="C15_mark_antony">Marco Antonio: conquista la Gallia Narbonese e la Cisalpina, Italia, Egitto e Grecia e mantieni per 2 turni con 3 truppe ciascuna.</string>
-
     <string name="CT1_dominate_the_empire">Dominare l\'Impero</string>
     <string name="CT2_control_the_mediterranean">Controllo dei Mari</string>
     <string name="CT3_control_the_atlantic">Controllo dell\'Atlantico</string>
@@ -56,20 +40,36 @@
     <string name="CT14_the_warlord">Il guerrafondaio</string>
     <string name="CT15_mark_antony">Marco Antonio</string>
 
-    <string name="CC1_dominate_the_empire">Conquistare 16 province e controllarle con almeno tre armate ciascuna.</string>
-    <string name="CC2_control_the_mediterranean">Avere il controllo del Mar Mediterraneo.</string>
-    <string name="CC3_control_the_atlantic">Conquistare tutte le province costiere dell\'Atlantico avendo almeno due armate in ogni provincia marittima e controllo dei mari nell\'Atlantico.</string>
-    <string name="CC4_roman_legacy">Conquistare e controllare tutte le province italiane (Cisalpina, Italia, Sardegna, Sicilia, Corsica) con almeno quattro armate ciascuna.</string>
-    <string name="CC5_scipio_africanus">Conquistare tutte le province africane e mantenere il controllo per almeno tre turni.</string>
-    <string name="CC6_julius_caesar">Conquistare tutte le province della Gallia (Gallia Cisalpina, Gallia Narbonense, Belgica, Germania Inferior) e controllarle con almeno due armate ciascuna.</string>
-    <string name="CC7_paella_and_baguette">Conquistare tutte le province della Francia e della Spagna e tenerle per due turni.</string>
+    <string name="C1_dominate_the_empire">Dominare l\'impero: Conquista 16 province e controllale con almeno tre armate ciascuna.</string>
+    <string name="C2_control_the_mediterranean">Controllo dei mari: Ottieni il controllo del Mar Mediterraneo.</string>
+    <string name="C3_control_the_atlantic">Controllo dell\'Atlantico: Conquista tutte le province costiere dell\'Atlantico avendo almeno due armate in ogni provincia marittima e controllo dei mari nell\'Atlantico.</string>
+    <string name="C4_roman_legacy">Eredita\' Romana: Conquista e controlla tutte le province italiane (Cisalpina, Italia, Sardegna, Sicilia, Corsica) con almeno quattro armate ciascuna per tre turni.</string>
+    <string name="C5_scipio_africanus">Scipione l\'Africano: Conquista tutte le province africane e mantieni il controllo per almeno tre turni.</string>
+    <string name="C6_julius_caesar">Giulio Cesare: Conquista tutte le province della Gallia (Gallia Cisalpina, Gallia Narbonense, Belgica, Germania Inferior) e controllale con almeno due armate ciascuna per due turni.</string>
+    <string name="C7_paella_and_baguette">Paella e Baguette: Conquista tutte le province della Francia e della Spagna e mantienile per due turni.</string>
+    <string name="C8_return_of_the_gladiator">Ritorno del gladiatore: Conquista 7 province in un unico turno.</string>
+    <string name="C9_mediterranean_islander">L\'isolano mediteranneo: Controlla tutte le isole del Mediterraneo con almeno 3 unità ciascuna.</string>
+    <string name="C10_greek_emperor">L\'imperatore greco:Controlla tutta l\'Europa orientale.</string>
+    <string name="C11_great_sultan">Il grande sultano: Conquista tutta l\'Asia Minore fino all\'Egitto non compreso (non servono le isole).</string>
+    <string name="C12_the_trinity">La trinita\': Controlla almeno tre province per ogni continente (Europa, Africa, Asia) avendo almeno due armate in ogni provincia e mantieni il controllo per due turni.</string>
+    <string name="C13_the_pirate">Il pirata: Conquista il controllo dei mari in 7 mari oppure possiedi 12 navi.</string>
+    <string name="C14_the_warlord">Il guerrafondaio: Conquista 2 territori di ogni giocatore nello stesso turno (all\'inizio del gioco). Per ogni giocatore sconfitto aggiungi 2 territori in totale.</string>
+    <string name="C15_mark_antony">Marco Antonio: Conquista la Gallia Narbonese e la Cisalpina, Italia, Egitto e Grecia e mantieni per 2 turni con 3 truppe ciascuna.</string>
+
+    <string name="CC1_dominate_the_empire">Conquista 16 province e controllale con almeno tre armate ciascuna.</string>
+    <string name="CC2_control_the_mediterranean">Ottieni il controllo del Mar Mediterraneo.</string>
+    <string name="CC3_control_the_atlantic">Conquista tutte le province costiere dell\'Atlantico avendo almeno due armate in ogni provincia marittima e controllo dei mari nell\'Atlantico.</string>
+    <string name="CC4_roman_legacy">Conquista e controlla tutte le province italiane (Cisalpina, Italia, Sardegna, Sicilia, Corsica) con almeno quattro armate ciascuna per tre turni.</string>
+    <string name="CC5_scipio_africanus">Conquista tutte le province africane e mantieni il controllo per almeno tre turni.</string>
+    <string name="CC6_julius_caesar">Conquista tutte le province della Gallia (Gallia Cisalpina, Gallia Narbonense, Belgica, Germania Inferior) e controllale con almeno due armate ciascuna per due turni.</string>
+    <string name="CC7_paella_and_baguette">Conquista tutte le province della Francia e della Spagna e mantienile per due turni.</string>
     <string name="CC8_return_of_the_gladiator">Conquista 7 province in un unico turno.</string>
     <string name="CC9_mediterranean_islander">Controlla tutte le isole del Mediterraneo con almeno 3 unità ciascuna.</string>
     <string name="CC10_greek_emperor">Controlla tutta l\'Europa orientale.</string>
     <string name="CC11_great_sultan">Conquista tutta l\'Asia Minore fino all\'Egitto non compreso (non servono le isole).</string>
-    <string name="CC12_the_trinity">Controlla almeno tre province per ogni continente (Europa, Africa, Asia) avendo almeno due armate in ogni provincia.</string>
-    <string name="CC13_the_pirate">Possiedi il controllo dei mari in 7 mari oppure possiedi 12 navi.</string>
-    <string name="CC14_the_warlord">Conquista 2 territori di ogni giocatore nello stesso turno. Per ogni giocatore mancante aggiungi 2 territori in totale.</string>
+    <string name="CC12_the_trinity">Controlla almeno tre province per ogni continente (Europa, Africa, Asia) avendo almeno due armate in ogni provincia e mantieni il controllo per due turni.</string>
+    <string name="CC13_the_pirate">Conquista il controllo dei mari in 7 mari oppure possiedi 12 navi.</string>
+    <string name="CC14_the_warlord">Conquista 2 territori di ogni giocatore nello stesso turno (all\'inizio del gioco). Per ogni giocatore sconfitto aggiungi 2 territori in totale.</string>
     <string name="CC15_mark_antony">Conquista la Gallia Narbonese e la Cisalpina, Italia, Egitto e Grecia e mantieni per 2 turni con 3 truppe ciascuna.</string>
 
     <string name="title_challenges_page">\nLe sfide\n</string>
