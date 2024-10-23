@@ -5,7 +5,7 @@
     android:background="@drawable/harbour"
     android:gravity="top|center_horizontal"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="12sp">
 
     <TextView
         android:id="@+id/textView"
@@ -35,7 +35,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginHorizontal="65dp"
             android:layout_marginTop="45dp"
             android:layout_marginBottom="45dp"
@@ -44,6 +44,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <EditText
@@ -58,7 +62,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <EditText
@@ -73,7 +77,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <EditText
@@ -88,7 +92,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <EditText
@@ -103,7 +107,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <EditText
@@ -116,31 +120,39 @@
                     style="@style/ColorButtonFirstPage" />
             </LinearLayout>
 
+            </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
 
             <Button
                 android:id="@+id/buttonSubmit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_below="@+id/linearLayout"
                 android:layout_gravity="center"
                 android:background="#C2B280"
                 android:fontFamily="@font/cinzel_extrabold"
                 android:padding="12dp"
                 android:text="@string/show_provinces"
                 android:textColor="#000000"
-                android:textSize="18dp" />
+                android:textSize="10sp"
+
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="32sp"
+                android:autoSizeStepGranularity="2sp"
+                />
 
             <Button
                 android:id="@+id/buttonReset"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
                 android:background="#C2B280"
                 android:fontFamily="@font/cinzel_extrabold"
                 android:text="R"
