@@ -17,7 +17,7 @@ This app helps the creation of the initial conditions for the start of the game 
 
 The rules for the game are similar to the ones of the standard Risiko game with minor changes like winning conditions, initial settings and different type of units.
 
-A detailed version of the rules are in the SPQRisikoRules.txt.
+A detailed version of the rules are in the [SPQRISIKOGAMERULES-en](Rules/SPQRISIKOGAMERULES-en.md).
 
 
 
