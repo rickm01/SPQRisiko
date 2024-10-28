@@ -31,7 +31,7 @@ public class SettingPageActivity extends AppCompatActivity {
             radioGroupLanguages.check(R.id.radioEnglish);
         }
 
-// Imposta listener per il RadioGroup
+        // Imposta listener per il RadioGroup
         radioGroupLanguages.setOnCheckedChangeListener((group, checkedId) -> {
             RadioButton radioButton = findViewById(checkedId);
             String selectedLanguage = radioButton.getText().toString();

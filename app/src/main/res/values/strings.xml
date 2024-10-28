@@ -76,6 +76,7 @@
     <string name="challenges_assigned">Sfide assegnate</string>
     <string name="show_challenge">Mostra sfida</string>
     <string name="hide_challenge">Nascondi sfida</string>
+    <string name="see_rules">Regole</string>
 
 
 </resources>

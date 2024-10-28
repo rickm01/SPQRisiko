@@ -32,6 +32,9 @@
     <!-- ListChallenges Activity -->
     <activity android:name=".ChallengesListActivity" />
 
+    <!-- RulesPagina Activity -->
+    <activity android:name=".RulesPageActivity" />
+
     <!-- SettingPagina Activity -->
     <activity android:name=".SettingPageActivity" />
 
