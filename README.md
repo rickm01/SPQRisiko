@@ -19,6 +19,9 @@ The rules for the game are similar to the ones of the standard Risiko game with 
 
 A detailed version of the rules are in the [SPQRISIKOGAMERULES-en](Rules/SPQRISIKOGAMERULES-en.md).
 
+## Project Status and Next Steps
+The app works and all the functionalities are implemented and works properly. The development of the app is now paused and there are missing some graphical updates (e.g. text font does not scale correctly and minor english/italian translations missing).
+
 
 
 
